@@ -5,7 +5,7 @@ defineProps({
 </script>
 
 <template>
-  <div class="max-w-sm bg-white rounded-lg border border-gray-200 shadow-md dark:bg-gray-800 dark:border-gray-700">
+  <div class="max-w-sm bg-white rounded-lg border border-gray-900 shadow-md dark:bg-gray-800 dark:border-gray-700">
     <div class="flex justify-center rounded-t-lg overflow-hidden">
       <img class="rounded-t-lg w-full" :src="movie.poster" :alt="movie.title">
     </div>

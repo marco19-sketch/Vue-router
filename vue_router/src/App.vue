@@ -1,9 +1,10 @@
-<script setup></script>
-
+<script setup>
+import NavBarVue from './components/NavBarVue.vue';
+</script>
 <template>
 
   <div class="max-w-7xl mx-auto">
-    <h1 class="text-center">Header</h1>
+    <NavBarVue />
     <routerView />
   </div>
 </template>
